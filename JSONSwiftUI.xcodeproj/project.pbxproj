@@ -15,6 +15,7 @@
 		D9A402F624AE5D5A00BC2E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A402F424AE5D5A00BC2E75 /* LaunchScreen.storyboard */; };
 		D9A4030124AE5D5A00BC2E75 /* JSONSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4030024AE5D5A00BC2E75 /* JSONSwiftUITests.swift */; };
 		D9A4030C24AE5D5A00BC2E75 /* JSONSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4030B24AE5D5A00BC2E75 /* JSONSwiftUIUITests.swift */; };
+		D9A4031E24AE626F00BC2E75 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4031D24AE626F00BC2E75 /* Movies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D9A4030724AE5D5A00BC2E75 /* JSONSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A4030B24AE5D5A00BC2E75 /* JSONSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSwiftUIUITests.swift; sourceTree = "<group>"; };
 		D9A4030D24AE5D5A00BC2E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A4031D24AE626F00BC2E75 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D9A402E924AE5D5700BC2E75 /* AppDelegate.swift */,
 				D9A402EB24AE5D5700BC2E75 /* SceneDelegate.swift */,
+				D9A4031F24AE636100BC2E75 /* Model */,
 				D9A402ED24AE5D5700BC2E75 /* ContentView.swift */,
 				D9A402EF24AE5D5A00BC2E75 /* Assets.xcassets */,
 				D9A402F424AE5D5A00BC2E75 /* LaunchScreen.storyboard */,
@@ -134,6 +137,14 @@
 				D9A4030D24AE5D5A00BC2E75 /* Info.plist */,
 			);
 			path = JSONSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		D9A4031F24AE636100BC2E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9A4031D24AE626F00BC2E75 /* Movies.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A4031E24AE626F00BC2E75 /* Movies.swift in Sources */,
 				D9A402EA24AE5D5700BC2E75 /* AppDelegate.swift in Sources */,
 				D9A402EC24AE5D5700BC2E75 /* SceneDelegate.swift in Sources */,
 				D9A402EE24AE5D5700BC2E75 /* ContentView.swift in Sources */,
